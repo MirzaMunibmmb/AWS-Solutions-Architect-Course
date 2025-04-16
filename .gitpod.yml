@@ -15,5 +15,7 @@ tasks:
       aws sts get-caller-identity # Optional: Check if AWS CLI is configured correctly
 
       cd $THEIA_WORKSPACE_ROOT
-    env:
-      AWS_CLI_AUTO_PROMPT: on
+
+# Set env variables globally
+env:
+  AWS_CLI_AUTO_PROMPT: on
